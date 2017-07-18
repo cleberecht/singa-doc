@@ -60,7 +60,6 @@ de.bioforscher.singa.mathematics.geometry.faces
 de.bioforscher.singa.mathematics.geometry.model
 de.bioforscher.singa.mathematics.graphs.model
 de.bioforscher.singa.mathematics.graphs.trees
-de.bioforscher.singa.mathematics.graphs.util
 de.bioforscher.singa.mathematics.graphs.voronoi
 de.bioforscher.singa.mathematics.matrices
 de.bioforscher.singa.mathematics.metrics.implementations
@@ -68,16 +67,6 @@ de.bioforscher.singa.mathematics.metrics.model
 de.bioforscher.singa.mathematics.topology
 de.bioforscher.singa.mathematics.topology.grids
 de.bioforscher.singa.mathematics.vectors
-de.bioforscher.singa.simulation.application
-de.bioforscher.singa.simulation.application.components.cards
-de.bioforscher.singa.simulation.application.components.cells
-de.bioforscher.singa.simulation.application.components.controlpanles
-de.bioforscher.singa.simulation.application.components.entities
-de.bioforscher.singa.simulation.application.components.menus
-de.bioforscher.singa.simulation.application.components.panes
-de.bioforscher.singa.simulation.application.components.plots
-de.bioforscher.singa.simulation.application.renderer
-de.bioforscher.singa.simulation.application.wizards
 de.bioforscher.singa.simulation.events
 de.bioforscher.singa.simulation.features.permeability
 de.bioforscher.singa.simulation.model.compartments
@@ -96,3 +85,4 @@ de.bioforscher.singa.simulation.parser.graphs
 de.bioforscher.singa.simulation.parser.sbml
 de.bioforscher.singa.simulation.parser.sbml.converter
 de.bioforscher.singa.simulation.research
+uk.co.cogitolearning.cogpar
