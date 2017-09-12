@@ -19,11 +19,13 @@ de.bioforscher.singa.chemistry.descriptive.molecules
 de.bioforscher.singa.chemistry.parser.pdb.ligands
 de.bioforscher.singa.chemistry.parser.pdb.structures
 de.bioforscher.singa.chemistry.parser.pdb.structures.tokens
+de.bioforscher.singa.chemistry.parser.plip
 de.bioforscher.singa.chemistry.physical.atoms
 de.bioforscher.singa.chemistry.physical.atoms.representations
 de.bioforscher.singa.chemistry.physical.branches
 de.bioforscher.singa.chemistry.physical.families
 de.bioforscher.singa.chemistry.physical.families.substitution.matrices
+de.bioforscher.singa.chemistry.physical.interactions
 de.bioforscher.singa.chemistry.physical.leaves
 de.bioforscher.singa.chemistry.physical.model
 de.bioforscher.singa.core.biology
@@ -32,8 +34,6 @@ de.bioforscher.singa.core.identifier
 de.bioforscher.singa.core.identifier.model
 de.bioforscher.singa.core.parameters
 de.bioforscher.singa.core.parser
-de.bioforscher.singa.core.parser.rest
-de.bioforscher.singa.core.parser.xml
 de.bioforscher.singa.core.utility
 de.bioforscher.singa.features.model
 de.bioforscher.singa.features.parameters
@@ -61,6 +61,7 @@ de.bioforscher.singa.mathematics.geometry.model
 de.bioforscher.singa.mathematics.graphs.model
 de.bioforscher.singa.mathematics.graphs.trees
 de.bioforscher.singa.mathematics.graphs.voronoi
+de.bioforscher.singa.mathematics.intervals
 de.bioforscher.singa.mathematics.matrices
 de.bioforscher.singa.mathematics.metrics.implementations
 de.bioforscher.singa.mathematics.metrics.model
