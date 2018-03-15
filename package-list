@@ -3,6 +3,7 @@ de.bioforscher.singa.chemistry.descriptive.entities
 de.bioforscher.singa.chemistry.descriptive.estimations
 de.bioforscher.singa.chemistry.descriptive.features
 de.bioforscher.singa.chemistry.descriptive.features.databases.chebi
+de.bioforscher.singa.chemistry.descriptive.features.databases.ena
 de.bioforscher.singa.chemistry.descriptive.features.databases.pubchem
 de.bioforscher.singa.chemistry.descriptive.features.databases.unichem
 de.bioforscher.singa.chemistry.descriptive.features.databases.uniprot
@@ -10,10 +11,10 @@ de.bioforscher.singa.chemistry.descriptive.features.diffusivity
 de.bioforscher.singa.chemistry.descriptive.features.logp
 de.bioforscher.singa.chemistry.descriptive.features.molarmass
 de.bioforscher.singa.chemistry.descriptive.features.molarvolume
+de.bioforscher.singa.chemistry.descriptive.features.permeability
 de.bioforscher.singa.chemistry.descriptive.features.reactions
 de.bioforscher.singa.chemistry.descriptive.features.smiles
 de.bioforscher.singa.chemistry.descriptive.features.structure3d
-de.bioforscher.singa.chemistry.descriptive.features.transporterflux
 de.bioforscher.singa.chemistry.descriptive.molecules
 de.bioforscher.singa.core.biology
 de.bioforscher.singa.core.events
@@ -22,6 +23,7 @@ de.bioforscher.singa.core.identifier.model
 de.bioforscher.singa.core.parameters
 de.bioforscher.singa.core.parser
 de.bioforscher.singa.core.utility
+de.bioforscher.singa.features.exceptions
 de.bioforscher.singa.features.model
 de.bioforscher.singa.features.parameters
 de.bioforscher.singa.features.quantities
@@ -50,6 +52,7 @@ de.bioforscher.singa.mathematics.geometry.bodies
 de.bioforscher.singa.mathematics.geometry.edges
 de.bioforscher.singa.mathematics.geometry.faces
 de.bioforscher.singa.mathematics.geometry.model
+de.bioforscher.singa.mathematics.graphs.grid
 de.bioforscher.singa.mathematics.graphs.model
 de.bioforscher.singa.mathematics.graphs.trees
 de.bioforscher.singa.mathematics.intervals
@@ -57,11 +60,16 @@ de.bioforscher.singa.mathematics.matrices
 de.bioforscher.singa.mathematics.metrics.implementations
 de.bioforscher.singa.mathematics.metrics.model
 de.bioforscher.singa.mathematics.similarities
-de.bioforscher.singa.mathematics.topology
-de.bioforscher.singa.mathematics.topology.grids
+de.bioforscher.singa.mathematics.topology.grids.cube
+de.bioforscher.singa.mathematics.topology.grids.hexagonal
+de.bioforscher.singa.mathematics.topology.grids.rectangular
+de.bioforscher.singa.mathematics.topology.model
 de.bioforscher.singa.mathematics.vectors
+de.bioforscher.singa.sequence.algorithms.alignment
+de.bioforscher.singa.sequence.model
+de.bioforscher.singa.sequence.model.interfaces
 de.bioforscher.singa.simulation.events
-de.bioforscher.singa.simulation.features.chemicalpotential
+de.bioforscher.singa.simulation.exceptions
 de.bioforscher.singa.simulation.features.permeability
 de.bioforscher.singa.simulation.features.scale
 de.bioforscher.singa.simulation.model.compartments
@@ -86,7 +94,6 @@ de.bioforscher.singa.structure.algorithms.superimposition.fit3d.statistics
 de.bioforscher.singa.structure.algorithms.superimposition.scores
 de.bioforscher.singa.structure.elements
 de.bioforscher.singa.structure.features.molarmass
-de.bioforscher.singa.structure.features.molarvolume
 de.bioforscher.singa.structure.model.families
 de.bioforscher.singa.structure.model.identifiers
 de.bioforscher.singa.structure.model.interfaces
@@ -98,4 +105,5 @@ de.bioforscher.singa.structure.parser.pdb.structures.tokens
 de.bioforscher.singa.structure.parser.pfam
 de.bioforscher.singa.structure.parser.pfam.tokens
 de.bioforscher.singa.structure.parser.plip
+de.bioforscher.singa.structure.parser.sifts
 uk.co.cogitolearning.cogpar
